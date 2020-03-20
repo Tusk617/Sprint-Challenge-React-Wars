@@ -18,9 +18,9 @@ const CharacterCard = props => {
             
             
             <Container >
-            <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+            <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333', marginBottom: '2%'}}>
                 
-                <CardBody sm="6">
+                <CardBody>
                     {/* <CardTitle>Name: {props.content.name}</CardTitle> */}
                     <CharName>{props.content.name}</CharName>
                     <CardText>Height: {props.content.height}</CardText>
